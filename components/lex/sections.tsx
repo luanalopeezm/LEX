@@ -1,6 +1,6 @@
-import { Check, GraduationCap, Sparkles, Target, Eye } from "lucide-react"
-import { CATEGORIAS, DIFERENCIALES, PASOS } from "./data"
-import { Eyebrow, AvatarIniciales } from "./ui"
+import { Check, GraduationCap, Sparkles, Target, Eye } from "lucide-react";
+import { CATEGORIAS, DIFERENCIALES, PASOS } from "./data";
+import { Eyebrow, AvatarIniciales } from "./ui";
 
 export function Problema() {
   return (
@@ -9,8 +9,8 @@ export function Problema() {
         <div>
           <Eyebrow>El problema</Eyebrow>
           <p className="font-display mt-4 text-pretty text-2xl font-semibold leading-snug text-slate-900">
-            Miles de estudiantes universitarios tienen conocimientos valiosos —
-            y ningún canal serio para ofrecerlos.
+            Miles de estudiantes universitarios tienen conocimientos valiosos y
+            ningún canal serio para ofrecerlos.
           </p>
           <p className="mt-3 text-sm md:text-base leading-relaxed text-slate-600">
             Del otro lado, hay clientes que necesitan trabajos puntuales y buena
@@ -24,19 +24,24 @@ export function Problema() {
             protegidos.
           </p>
           <p className="mt-3 text-sm md:text-base leading-relaxed text-slate-600">
-            La identidad de cada estudiante está atada a su carrera y su
-            institución, y el dinero del cliente queda protegido hasta que el
-            trabajo se completa.
+            Creamos una plataforma única que reúne el desarrollo de proyectos,
+            clases particulares y turnos clínicos en un solo lugar. Conectamos
+            tu necesidad exacta con estudiantes de perfiles académicos
+            verificados, garantizando que el pago quede resguardado de forma
+            segura hasta que el trabajo se entregue con éxito.
           </p>
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 export function ComoFunciona() {
   return (
-    <section id="como-funciona" className="mx-auto max-w-7xl 2xl:max-w-[1440px] px-5 py-20 lg:py-24">
+    <section
+      id="como-funciona"
+      className="mx-auto max-w-7xl 2xl:max-w-[1440px] px-5 py-20 lg:py-24"
+    >
       <div className="max-w-xl">
         <Eyebrow>Cómo funciona</Eyebrow>
         <h2 className="font-display mt-4 text-pretty text-3xl font-bold text-slate-900 sm:text-4xl xl:text-5xl">
@@ -62,7 +67,7 @@ export function ComoFunciona() {
         ))}
       </div>
     </section>
-  )
+  );
 }
 
 export function Diferenciales() {
@@ -73,9 +78,10 @@ export function Diferenciales() {
     >
       <div className="mx-auto max-w-7xl 2xl:max-w-[1440px] px-5 py-20 lg:py-24">
         <div className="max-w-xl">
-          <Eyebrow>Por qué confiar en LEX</Eyebrow>
+          <Eyebrow>En que nos diferenciamos</Eyebrow>
           <h2 className="font-display mt-4 text-pretty text-3xl font-bold text-slate-900 sm:text-4xl xl:text-5xl">
-            La confianza no es un eslogan, es una arquitectura
+            Una plataforma estructurada para la contratación segura de talento
+            regional
           </h2>
         </div>
         <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
@@ -100,16 +106,16 @@ export function Diferenciales() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 export function Categorias() {
   return (
     <section className="mx-auto max-w-7xl 2xl:max-w-[1440px] px-5 py-20 lg:py-24">
       <div className="max-w-xl">
-        <Eyebrow>Categorías</Eyebrow>
+        <Eyebrow>Nuestros servicios</Eyebrow>
         <h2 className="font-display mt-4 text-pretty text-3xl font-bold text-slate-900 sm:text-4xl xl:text-5xl">
-          Cuatro áreas, un mismo estándar de confianza
+          Tres categorías de servicios unificadas en una sola plataforma
         </h2>
       </div>
       <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
@@ -131,29 +137,32 @@ export function Categorias() {
         ))}
       </div>
     </section>
-  )
+  );
 }
 
 const LADO_ESTUDIANTE = [
-  "Activá tu perfil desde tu cuenta y vinculá tu carrera",
-  "Publicá servicios o postulate a pedidos abiertos",
-  "Cobrá con la seguridad del escrow — nadie te deja colgado",
-]
+  "Accedé a tu primera experiencia laboral real y certificada en tu área de formación",
+  "Construí automáticamente un portfolio profesional con calificaciones reales, exportable a LinkedIn.",
+  "Generá ingresos genuinos mientras estudiás",
+];
 
 const LADO_CLIENTE = [
-  "Publicá lo que necesitás o contratá directo del catálogo",
-  "Pedí servicios de salud con paciente y consentimiento",
+  "Resolvé necesidades concretas contratando servicios a precios inferiores al mercado tradicional",
+  "Reclutá talento validado auditando directamente sus portfolios y evaluaciones de desempeño.",
   "Pagá seguro: el escrow libera el dinero solo al completar",
-]
+];
 
 export function Audiencia() {
   return (
-    <section id="estudiantes" className="border-y border-slate-100 bg-slate-50/60">
+    <section
+      id="estudiantes"
+      className="border-y border-slate-100 bg-slate-50/60"
+    >
       <div className="mx-auto max-w-7xl 2xl:max-w-[1440px] px-5 py-20 lg:py-24">
         <div className="max-w-xl">
           <Eyebrow>Para quién es LEX</Eyebrow>
           <h2 className="font-display mt-4 text-pretty text-3xl font-bold text-slate-900 sm:text-4xl xl:text-5xl">
-            Dos lados, un mismo marketplace
+            Dos perfiles, un mismo punto de encuentro
           </h2>
         </div>
         <div className="mt-12 grid grid-cols-1 gap-6 lg:grid-cols-2">
@@ -170,7 +179,7 @@ export function Audiencia() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 function LadoCard({
@@ -178,16 +187,18 @@ function LadoCard({
   titulo,
   items,
 }: {
-  icon: typeof GraduationCap
-  titulo: string
-  items: string[]
+  icon: typeof GraduationCap;
+  titulo: string;
+  items: string[];
 }) {
   return (
     <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm shadow-slate-900/5">
       <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-indigo-600 text-white">
         <Icon className="h-5 w-5" />
       </span>
-      <h3 className="mt-5 text-lg md:text-xl font-semibold text-slate-900">{titulo}</h3>
+      <h3 className="mt-5 text-lg md:text-xl font-semibold text-slate-900">
+        {titulo}
+      </h3>
       <ul className="mt-5 space-y-3.5 text-sm md:text-base text-slate-600">
         {items.map((t) => (
           <li key={t} className="flex items-start gap-3">
@@ -199,7 +210,7 @@ function LadoCard({
         ))}
       </ul>
     </div>
-  )
+  );
 }
 
 export function MisionVision() {
@@ -221,11 +232,11 @@ export function MisionVision() {
               Misión
             </h3>
             <p className="mt-3 text-sm md:text-base leading-relaxed text-slate-600">
-              Conectar al talento universitario del NEA con empresas,
-              comercios y particulares que necesitan resolver problemas
-              concretos, dándole a cada estudiante su primera experiencia
-              laboral real y certificada, y a cada cliente acceso a talento
-              verificado, confiable y accesible.
+              Conectar al talento universitario del NEA con empresas, comercios
+              y particulares que necesitan resolver problemas concretos, dándole
+              a cada estudiante su primera experiencia laboral real y
+              certificada, y a cada cliente acceso a talento verificado,
+              confiable y accesible.
             </p>
           </div>
           <div className="rounded-2xl border border-slate-200 bg-white p-8">
@@ -236,18 +247,18 @@ export function MisionVision() {
               Visión
             </h3>
             <p className="mt-3 text-sm md:text-base leading-relaxed text-slate-600">
-              Ser el ecosistema regional de referencia que unifique proyectos,
-              clases y prácticas supervisadas bajo un mismo entorno seguro y
-              con respaldo institucional, reteniendo el talento joven en el
-              NEA y frenando su migración hacia otras ciudades.
+              Consolidarnos como la plataforma regional de referencia que
+              unifique proyectos, clases y prácticas supervisadas bajo un mismo
+              entorno seguro y con respaldo institucional, reteniendo el talento
+              joven en el NEA y frenando su migración hacia otras ciudades.
             </p>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
- 
+
 const EQUIPO = [
   {
     nombre: "Ruth Ayelen Aquino",
@@ -269,20 +280,23 @@ const EQUIPO = [
     iniciales: "MV",
     rol: "Cofundadora",
   },
-]
+];
 
 export function Equipo() {
   return (
-    <section id="equipo" className="mx-auto max-w-7xl 2xl:max-w-[1440px] px-5 py-20 lg:py-24">
+    <section
+      id="equipo"
+      className="mx-auto max-w-7xl 2xl:max-w-[1440px] px-5 py-20 lg:py-24"
+    >
       <div className="max-w-xl">
         <Eyebrow>Nuestro equipo</Eyebrow>
         <h2 className="font-display mt-4 text-pretty text-3xl font-bold text-slate-900 sm:text-4xl xl:text-5xl">
           Las personas detrás de LEX
         </h2>
-        <p className="mt-3 text-sm md:text-base leading-relaxed text-slate-600">
-          Un equipo de estudiantes de Sistemas de la UNNE, unidos por la
-          misma idea: conectar el talento universitario del NEA con quienes
-          lo necesitan.
+        <p className="mt-3 text-sm md:text-base leading-relaxed text-slate-600 text-justify">
+          Somos un equipo de estudiantes de la Licenciatura en Sistemas en la
+          UNNE. Creamos LEX porque vivimos de cerca la necesidad de conectar
+          nuestra formación académica con el mundo real.
         </p>
       </div>
       <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
@@ -298,10 +312,12 @@ export function Equipo() {
             <h3 className="mt-4 text-base md:text-lg font-semibold text-slate-900">
               {persona.nombre}
             </h3>
-            <p className="mt-1 text-sm md:text-base text-slate-500">{persona.rol}</p>
+            <p className="mt-1 text-sm md:text-base text-slate-500">
+              {persona.rol}
+            </p>
           </div>
         ))}
       </div>
     </section>
-  )
+  );
 }

@@ -52,7 +52,7 @@ export function Footer() {
               LEX<span className="text-indigo-600">.</span>
             </span>
             <p className="mt-2 max-w-xs text-sm md:text-base text-slate-500">
-              Marketplace que conecta estudiantes universitarios con clientes
+              Plataforma que conecta estudiantes universitarios con clientes
               que necesitan su talento.
             </p>
           </div>

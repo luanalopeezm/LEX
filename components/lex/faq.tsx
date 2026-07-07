@@ -15,7 +15,7 @@ export function Faq() {
           <Eyebrow>Preguntas frecuentes</Eyebrow>
         </div>
         <h2 className="font-display mt-4 text-pretty text-3xl font-bold text-slate-900 sm:text-4xl xl:text-5xl">
-          Lo que suelen preguntarnos
+          Todo lo que necesitás saber sobre LEX
         </h2>
       </div>
       <div className="mt-10 space-y-3">
