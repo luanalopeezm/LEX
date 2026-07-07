@@ -106,35 +106,6 @@ export const DIFERENCIALES: Diferencial[] = [
   },
 ]
 
-export type Testimonio = {
-  nombre: string
-  rol: string
-  texto: string
-  sobre: string
-}
-
-export const TESTIMONIOS: Testimonio[] = [
-  {
-    nombre: "Diego Fernández",
-    rol: "Cliente particular",
-    texto: "Quedó espectacular el logo, súper profesional y atento a los cambios.",
-    sobre: "sobre el servicio de Camila Ríos, Diseño Gráfico",
-  },
-  {
-    nombre: "Cafetería La Esquina",
-    rol: "Cliente empresa",
-    texto: "La web quedó impecable y entregó antes de lo pactado.",
-    sobre: "sobre el servicio de Mateo Gómez, Sistemas de Información",
-  },
-  {
-    nombre: "Verónica Paz",
-    rol: "Cliente particular",
-    texto:
-      "Muy profesional y cuidadosa, todo realizado bajo supervisión. Confiable.",
-    sobre: "sobre el servicio de Sofía Martínez, Odontología",
-  },
-]
-
 export type Faq = {
   q: string
   a: string
@@ -161,16 +132,4 @@ export const FAQS: Faq[] = [
     q: "¿Esto es un producto en producción o un prototipo?",
     a: "Hoy LEX es un prototipo funcional: podés probar el flujo completo — registro, activación de perfil de estudiante, contratación, escrow y reseñas — con datos de demostración.",
   },
-]
-
-export type Numero = {
-  valor: string
-  label: string
-}
-
-export const NUMEROS: Numero[] = [
-  { valor: "10", label: "estudiantes activos" },
-  { valor: "18", label: "servicios publicados" },
-  { valor: "4", label: "áreas de servicio" },
-  { valor: "7", label: "trabajos completados con reseña" },
 ]

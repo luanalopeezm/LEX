@@ -9,7 +9,6 @@ import {
   Equipo,
   MisionVision,
 } from "@/components/lex/sections";
-import { Numeros, Testimonios } from "@/components/lex/social-proof";
 import { Faq } from "@/components/lex/faq";
 import { CtaFinal, Footer } from "@/components/lex/cta-footer";
 
@@ -24,8 +23,10 @@ export default function Page() {
         <Diferenciales />
         <Categorias />
         <Audiencia />
-        <Equipo />
-        <MisionVision />
+        <section id="nosotros">
+          <Equipo />
+          <MisionVision />
+        </section>
         <Faq />
         <CtaFinal />
       </main>

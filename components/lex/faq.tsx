@@ -14,7 +14,7 @@ export function Faq() {
         <div className="flex justify-center">
           <Eyebrow>Preguntas frecuentes</Eyebrow>
         </div>
-        <h2 className="font-display mt-4 text-pretty text-3xl font-semibold text-slate-900 sm:text-4xl">
+        <h2 className="font-display mt-4 text-pretty text-3xl font-bold text-slate-900 sm:text-4xl xl:text-5xl">
           Lo que suelen preguntarnos
         </h2>
       </div>
@@ -46,7 +46,7 @@ export function Faq() {
                 />
               </button>
               {activa && (
-                <p className="px-5 pb-5 text-sm leading-relaxed text-slate-600">
+                <p className="px-5 pb-5 text-sm md:text-base leading-relaxed text-slate-600">
                   {f.a}
                 </p>
               )}
