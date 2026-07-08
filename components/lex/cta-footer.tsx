@@ -80,7 +80,7 @@ export function Footer() {
               <ul className="mt-3 space-y-2.5 text-slate-500">
                 <li className="flex items-center gap-2">
                   <Mail className="h-4 w-4 text-slate-400" />
-                  @somos.lex
+                  somoslex.nea@gmail.com
                 </li>
                 <li className="flex items-center gap-2">
                   <MapPin className="h-4 w-4 text-slate-400" />
