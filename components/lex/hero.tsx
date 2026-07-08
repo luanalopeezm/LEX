@@ -33,7 +33,7 @@ export function Hero() {
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <Boton
-              href="https://app.somoslex.com.ar"
+              href="https://lex-proto.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
               variante="primario"

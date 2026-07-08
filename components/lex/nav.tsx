@@ -64,7 +64,7 @@ export function Nav() {
             </a>
           ))}
           <Boton
-          href="https://app.somoslex.com.ar"
+          href="https://lex-proto.vercel.app"
           target="_blank"
           rel="noopener noreferrer"
           variante="primario"
@@ -113,7 +113,7 @@ export function Nav() {
             </a>
           ))}
           <Boton
-            href="https://app.somoslex.com.ar"
+            href="https://lex-proto.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
             variante="primario"
